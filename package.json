@@ -1,0 +1,12 @@
+{
+  "name": "pic-share",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shivansh Nalwaya <shivanshnalwaya@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "cd api && yarn install && cd ../ui && yarn install",
+    "build": "cd ui && yarn build",
+    "start": "cd api && node index.js"
+  }
+}
